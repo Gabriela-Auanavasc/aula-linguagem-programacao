@@ -15,13 +15,6 @@
 # serão tracejados; Só podem ter os caracteres X, O, | ou espaço
 # vazio em cada posição do arquivo.
 
-with open ('jogo_da_velha.txt', 'w') as arquivo:
-    arquivo.write('X| |X\n')
-    arquivo.write('-----\n')
-    arquivo.write('X|O|O\n')
-    arquivo.write('-----\n')
-    arquivo.write('X|O|X')
-
 # variáveis globais
 tabuleiro = [] # vazio
 resultado = '' # string vazia
