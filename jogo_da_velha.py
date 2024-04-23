@@ -37,7 +37,6 @@ def marca_posicao(jogador, linha, coluna):
 
         resultado = quem_ganhou()
         if resultado != 'o jogo ainda não acabou...':
-            print(f'\n> resultado: {resultado}')
             return False  # encerra o jogo?
 
         atualizar_tabuleiro()
